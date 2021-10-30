@@ -1,0 +1,39 @@
+html {
+    padding: 20px;
+    color: #3d3d3d;
+    background: #C9D6FF;  
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+}
+
+#app{
+    width: 100%;
+}
+.box{
+    background: transparent;
+
+}
+.is-flex{
+    width: 100%;
+}
+
+.block{
+    text-align: center;
+}
+.is-flex .block .input{
+    background: transparent;
+    border: 2px solid #00d041;
+ }
+
+.button{
+    background: transparent;
+    border: 2px solid #00d041;
+}
+
+.p{
+    color: #00d041;
+}
+
+.input::placeholder{
+    color: black;
+}
